@@ -1,0 +1,32 @@
+.inicio {
+    background: rgb(249, 1, 108);
+    background: linear-gradient(90deg, rgba(249, 1, 108, 1) 0%, rgba(254, 223, 245, 1) 35%, rgba(249, 1, 108, 1) 100%);
+
+    /* background-color: #f2f2f2; */
+    padding: 50px;
+}
+
+.a {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+
+    h1 {
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        font-size: 1.1em;
+        margin-bottom: 5px;
+    }
+}

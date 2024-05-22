@@ -1,0 +1,42 @@
+.quienes-somos-section {
+    background-color: #ff4e98;
+    padding: 50px 0;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .imagen {
+    flex: 1;
+    margin-right: 50px;
+  
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 50px;
+      margin-top: 80px;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+  }
+  
+  .content {
+    flex: 1;
+  
+    h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  
+    p {
+      font-size: 1.2em;
+      text-align: center;
+    }
+  }
+  

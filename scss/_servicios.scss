@@ -1,0 +1,27 @@
+.servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+    background-image: url(../galeria/2148018960.jpg);
+}
+
+.servicio {
+    background-color: #f38383;
+    border-radius: 20px;
+    margin-top: 80px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+
+    img {
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+        margin-top: 80px;
+    }
+
+    h2 {
+        margin-top: 10px;
+        text-align: center;
+    }
+}
