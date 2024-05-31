@@ -25,18 +25,31 @@
     }
   }
   
+  // .content {
+  //   flex: 1;
+  
+  //   h2 {
+  //     font-size: 2em;
+  //     margin-bottom: 20px;
+  //     text-align: center;
+  //   }
+  
+  //   p {
+  //     font-size: 1.2em;
+  //     text-align: center;
+  //   }
+  // }
   .content {
     flex: 1;
-  
+    
     h2 {
       font-size: 2em;
       margin-bottom: 20px;
-      text-align: center;
+      @include estiloCentrado;
     }
-  
+    
     p {
       font-size: 1.2em;
-      text-align: center;
+      @include estiloCentrado;
     }
   }
-  

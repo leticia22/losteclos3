@@ -75,7 +75,8 @@ btn-close:focus {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 80px;
+  background-color: pink;
 }
 .galeria img {
   max-width: 400px;
@@ -197,7 +198,11 @@ footer p {
   font-size: 1em;
   margin-top: 10px;
 }
+.linkedin-own {
+  text-decoration: none;
+  color: white;
 
+}
 .redes {
   margin-top: 10px;
 }
@@ -215,7 +220,7 @@ footer p {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 50px;
-  background-image: url(../galeria/2148018960.jpg);
+  background-image: url(../galeria/2148018960.png);
 }
 
 .servicio {
@@ -249,16 +254,16 @@ footer p {
 
 @keyframes banner {
   0%, 20% {
-    background-image: url(../image/1.jpg);
+    background-image: url(../image/1.png);
   }
   25%, 45% {
     background-image: url(../image/2.png);
   }
   50%, 70% {
-    background-image: url(../image/3.jpg);
+    background-image: url(../image/3.png);
   }
   80%, 100% {
-    background-image: url(../image/09.jpg);
+    background-image: url(../image/4.png);
   }
 }
 .capa {
